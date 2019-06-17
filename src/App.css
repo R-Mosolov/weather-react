@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: "Open Sans", serif;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(241,231,103,1);
+  background: -moz-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
+  background: -webkit-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+  background: -o-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+  background: -ms-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+  background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 );
+}
+
+.row {
+  color: rgba(0, 0, 0, 0.33);
+  box-shadow: 0 0 15px 1px;
+}
+
+.info {
+  height: 55vh;
+  background: url("img/beautiful-arhitecture.jpg") center center no-repeat;
+  background-blend-mode: multiply;
+  background-color: lightgrey;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.form {
+  height: 55vh;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.header,
+.description {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.city-list {
+  height: 40px;
+  border: 0px solid white;
+  border-radius: 50px;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+}
+
+.details,
+.error {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+}
+
+input[type="text"] {
+  margin-bottom: 15px;
+  margin-right: 20px;
+  padding-bottom: 4px;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: lighter;
+  font-size: 20px;
+  outline: none;
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 2px rgba(0, 0, 0, 0.33);
+}
+
+input::-webkit-input-placeholder {
+  color: #103a65;
+}
+
+input::-moz-placeholder {
+  color: #103a65;
+}
+
+button {
+  border: 0px solid #103a65;
+  padding: 8px 20px;
+  margin: 0 2px;
+  cursor: pointer;
+  background-color: blue;
+  color: #fff;
+  outline: none!important;
+}
+
+button:hover {
+  background-color: green;
+}
+
+button:active {
+  background-color: grey;
+}
+
+.info h2 {
+  font-size: 3em;
+  color: #fff;
+}
+
+.info p {
+  color: #e4e4e4;
+  font-weight: bold;
+}
+
+.infoWeath {
+  width: 60%;
+  font-size: 20px;
+  color: #fff;
+}
+
+.weather {
+  margin-top: 15px;
+}
